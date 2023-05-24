@@ -18,7 +18,7 @@ export default function Home(props) {
 
   return (
     <div>
-      <div>
+      {/* <div>
         <h1 id="title">CodeKovacs</h1>
       </div>
       <div id="menu" className="menu" style={divStyle}>
@@ -60,7 +60,7 @@ export default function Home(props) {
         </div>
       </div>
 
-      <h3>Built with Vite + React</h3>
+      <h3>Built with Vite + React</h3> */}
     </div>
   );
 }
