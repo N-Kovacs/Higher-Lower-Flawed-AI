@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 
-import reactLogo from "../../assets/react.svg";
-
 import "./Home.css";
 
 export default function Home(props) {
