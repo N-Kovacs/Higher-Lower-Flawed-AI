@@ -1,30 +1,47 @@
-.storybook-button {
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  border: 0;
-  border-radius: 3em;
-  cursor: pointer;
+.deck .card {
+  border: solid 1px #aaa;
+  border-radius: 9px;
+  width: 95px;
+  height: 150px;
+  float: left;
+  background-color: white;
+  padding: 3px 3px 3px 3px;
+  margin: 5px;
+}
+
+.card2 {
+  width: 50px;
+  padding: 10px;
+  border: solid 1px #808080;
+  background-color: white;
   display: inline-block;
-  line-height: 1;
+  border-radius: 10px;
+  font-size: 22px;
+  text-align: center;
+  margin: 3px;
+  border: solid 3px;
 }
-.storybook-button--primary {
-  color: white;
-  background-color: #1ea7fd;
+
+.card .value {
+  font-size: 15pt;
+  font-family: sans-serif;
 }
-.storybook-button--secondary {
-  color: #333;
-  background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+
+.card .suit {
+  background-image: url("https://www.thatsoftwaredude.com/images/post/0f631eeb-6c4a-4bfd-9f86-e0a08ae8584b.png");
+  height: 100px;
+  width: 90px;
 }
-.storybook-button--small {
-  font-size: 12px;
-  padding: 10px 16px;
+
+.card .diamonds {
+  background-position-y: 100px;
 }
-.storybook-button--medium {
-  font-size: 14px;
-  padding: 11px 20px;
+
+.card .hearts {
+  background-position-x: 90px;
 }
-.storybook-button--large {
-  font-size: 16px;
-  padding: 12px 24px;
+
+.card .clubs {
+  background-position-x: 90px;
+  background-position-y: 100px;
 }
