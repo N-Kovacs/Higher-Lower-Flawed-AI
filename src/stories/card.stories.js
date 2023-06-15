@@ -26,6 +26,13 @@ export const FiveOfClubs = {
   },
 };
 
+export const KingOfSpades = {
+  args: {
+    number: 13,
+    suit: "Spade",
+  },
+};
+
 export const QueenoFDiamondsSelected = {
   args: {
     number: 12,
