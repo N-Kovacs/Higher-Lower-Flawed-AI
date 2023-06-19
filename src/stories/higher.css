@@ -1,0 +1,23 @@
+.card2 {
+  width: 40px;
+  padding: 10px;
+  border: solid 1px #808080;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 22px;
+  text-align: center;
+  margin: 3px;
+  border: solid 3px;
+}
+
+.card .value {
+  font-size: 15pt;
+  font-family: sans-serif;
+}
+
+.card .suit {
+  height: 100px;
+  width: 90px;
+}
+
