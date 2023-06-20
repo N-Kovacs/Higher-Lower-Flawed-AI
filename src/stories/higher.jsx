@@ -7,8 +7,7 @@ import "./card.css";
 export const Card = ({ number, suit, selected, ...props }) => {
   return (
     <div>
-      {number}
-      {suit}
+      Higher?
     </div>
   );
 };

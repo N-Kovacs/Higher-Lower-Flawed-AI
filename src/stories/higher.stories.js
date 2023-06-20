@@ -9,34 +9,29 @@ export default {
   },
 };
 
-export const Empty = {
-  args: {},
-};
-
-export const Ace = {
+export const Primary = {
   args: {
-    number: 1,
+    primary: true,
+    label: 'Button',
   },
 };
 
-export const FiveOfClubs = {
+export const Secondary = {
   args: {
-    number: 5,
-    suit: "Club",
+    label: 'Button',
   },
 };
 
-export const KingOfSpades = {
+export const Large = {
   args: {
-    number: 13,
-    suit: "Spade",
+    size: 'large',
+    label: 'Button',
   },
 };
 
-export const QueenoFDiamondsSelected = {
+export const Small = {
   args: {
-    number: 12,
-    suit: "Diamond",
-    selected: true,
+    size: 'small',
+    label: 'Button',
   },
 };
