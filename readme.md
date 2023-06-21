@@ -4,4 +4,3 @@ Is it possible to make an AI that the average user would state is "perfect" than
 Built using React and Vite.
 
 Live version available soon
-WIP
