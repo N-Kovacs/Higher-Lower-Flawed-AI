@@ -1,16 +1,5 @@
-.deck .card {
-  border: solid 1px #aaa;
-  border-radius: 9px;
-  width: 95px;
-  height: 150px;
-  float: left;
-  background-color: white;
-  padding: 3px 3px 3px 3px;
-  margin: 5px;
-}
-
 .card2 {
-  width: 50px;
+  width: 40px;
   padding: 10px;
   border: solid 1px #808080;
   background-color: white;
@@ -26,6 +15,15 @@
   font-size: 15pt;
   font-family: sans-serif;
 }
+<<<<<<< HEAD
 .selected {
   background-color: greenyellow;
 }
+=======
+
+.card .suit {
+  height: 100px;
+  width: 90px;
+}
+
+>>>>>>> 0b5c8cf28afb9e20a3c7a7d437d7e105fe4e532c
