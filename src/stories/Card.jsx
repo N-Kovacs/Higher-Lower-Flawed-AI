@@ -6,9 +6,13 @@ import "./card.css";
  */
 export const Card = ({ number, suit, selected, ...props }) => {
   return (
-    <div className={["card2", selected && "selected"].join(" ")}>
-      <div className="value">{number}</div>
-      <div className="suit">{suit}</div>
+    <div className="selections">
+      <div className="selectleft"></div>
+      <div className={["card2", selected && "selected"].join(" ")}>
+        <div className="value">{number}</div>
+        <div className="suit">{suit}</div>
+      </div>
+      <div className="selectright"></div>
     </div>
   );
 };

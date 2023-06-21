@@ -1,3 +1,6 @@
+.selections {
+  display: flex;
+}
 .card2 {
   width: 25%;
   padding: 10px;
@@ -9,6 +12,7 @@
   text-align: center;
   margin: 3px;
   border: solid 3px;
+  z-index: 1;
 }
 
 .card .value {
@@ -17,4 +21,37 @@
 }
 .selected {
   background-color: greenyellow;
+}
+
+.selectleft {
+  display: flex;
+  width: 30%;
+  position: relative;
+  left: 30px;
+  margin: 3px;
+}
+.selectright {
+  position: relative;
+  right: 30px;
+  display: flex;
+  width: 30%;
+  margin: 3px;
+}
+.selectleft:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(119, 215, 24, 0) 0%,
+    rgba(255, 0, 0, 1) 100%
+  );
+}
+.selectright:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(119, 215, 24, 1) 0%,
+    rgba(0, 29, 255, 0) 100%
+  );
 }
