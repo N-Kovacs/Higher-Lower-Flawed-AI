@@ -4,9 +4,6 @@ export default {
   title: "Card",
   component: Card,
   tags: ["autodocs"],
-  argTypes: {
-    backgroundColor: { control: "color" },
-  },
 };
 
 export const Empty = {
@@ -22,21 +19,21 @@ export const Ace = {
 export const FiveOfClubs = {
   args: {
     number: 5,
-    suit: "Club",
+    suit: "♣",
   },
 };
 
 export const KingOfSpades = {
   args: {
     number: 13,
-    suit: "Spade",
+    suit: "♣",
   },
 };
 
 export const QueenoFDiamondsSelected = {
   args: {
     number: 12,
-    suit: "Diamond",
+    suit: "♦",
     selected: true,
   },
 };
