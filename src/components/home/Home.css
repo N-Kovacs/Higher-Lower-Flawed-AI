@@ -23,7 +23,7 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.menu {
+/* .menu {
   align-items: center;
   display: flex;
   height: 50vh;
@@ -58,4 +58,4 @@
   text-decoration: none;
   transition: opacity 400ms ease, font-size 400ms ease;
   text-align: left;
-}
+} */
